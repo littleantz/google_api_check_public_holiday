@@ -214,4 +214,5 @@ return [
 	 * App Key
 	 */
 	 'app_key' => "[YOUR_API_KEY]",
+
 ];
