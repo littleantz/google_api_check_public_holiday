@@ -213,5 +213,5 @@ return [
 	/*
 	 * App Key
 	 */
-	 'app_key' => "",
+	 'app_key' => "e4324e666b878020f566cf4effc675b41c5ffc76",
 ];
