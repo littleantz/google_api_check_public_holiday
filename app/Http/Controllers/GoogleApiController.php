@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
@@ -24,12 +25,11 @@ class GoogleApiController extends Controller {
 		$res = json_decode($result);
 				
 		$result = $date . " : Hari Biasa";
-		if (count($res->items) > 0)
-		{
-			$result = $date . " : " . $res->items[0]->summary;
+		
+		if (count($res->items) > 0) {
+			$result = $date . " : " . $res->items[0]->summary;			
 		}
 		
 		return Response()->json(array('result' => $result));
     }
-
 }

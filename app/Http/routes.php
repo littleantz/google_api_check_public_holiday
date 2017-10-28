@@ -12,8 +12,6 @@
 */
 Route::post('checkPublicHoliday', 'GoogleApiController@checkPublicHoliday');
 
-
-Route::get('/', function () {
-    return view('form_check_date');
+Route::get('/form', function () {
+	return view('form_check_date');
 });
-

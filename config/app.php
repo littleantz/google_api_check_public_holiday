@@ -213,5 +213,5 @@ return [
 	/*
 	 * App Key
 	 */
-	 'app_key' => "AIzaSyACaSjl1xXpcKMJEPMPqTuwAGZzz7-isS4",
+	 'app_key' => "[YOUR_API_KEY]",
 ];

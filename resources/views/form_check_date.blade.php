@@ -1,3 +1,4 @@
+﻿<?php ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -78,7 +79,9 @@
 	<script>
 		$(function() {
 			$('#datetimepicker1').datetimepicker({
-                defaultDate: "<?=date('Y-m-d')?>",
+				defaultDate : "01 Jan 2018",
+				minDate : "01 Jan 2018",
+				maxDate : "31 Dec 2018",
                 format: 'DD MMM YYYY'
             });
 			
@@ -94,7 +97,8 @@
 						$('#date_info').html(res.result);
 						$('#myModal').modal('show');
 					},
-					error: function (jqXHR, exception) {						
+					error: function (jqXHR, exception) {	
+					
 					},
 				});
 			});
